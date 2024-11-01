@@ -95,19 +95,51 @@ const ContactPartner = () => {
 
   //   setFilteredPartners(filtered);
   // };
-  // Modify filterPartners to include search functionality
   const filterPartners = () => {
     let filtered = partnersOrdered.filter((partner) => {
       // When state is 'all', exclude offices
       if (state === 'all' && partner.isOffice) return false;
-      // Apply all filters together
-      if (state !== 'all' && partner.state !== state) return false;
-      if (certification !== 'all' && partner.certificationLevel !== Number(certification)) return false;
-      if (certificationAS !== 'all' && !partner.certificationAS) return false;
+
+      // For specific state
+      if (state !== 'all') {
+        // Handle offices (both corporativo and regional)
+        if (partner.isOffice) {
+          // For offices with state array (like corporativo)
+          if (Array.isArray(partner.state)) {
+            return partner.state.includes(state);
+          }
+          // For offices with single state
+          return partner.state === state;
+        }
+        // For regular partners, check exact state match
+        if (partner.state !== state) return false;
+      }
+
+      // Apply certification level filter (exclude offices from this filter)
+      if (certification !== 'all' && !partner.isOffice) {
+        if (partner.certificationLevel !== Number(certification)) return false;
+      }
+
+      // Apply AS certification filter (exclude offices from this filter)
+      if (certificationAS !== 'all' && !partner.isOffice) {
+        if (!partner.certificationAS) return false;
+      }
+
+      // Apply search filter
       if (searchQuery && !partner.inPageName.toLowerCase().includes(searchQuery.toLowerCase())) return false;
 
       return true;
     });
+
+    // Sort to ensure offices appear first when a state is selected
+    if (state !== 'all') {
+      filtered.sort((a, b) => {
+        if (a.isOffice && b.isOffice) return 0;
+        if (a.isOffice) return -1;
+        if (b.isOffice) return 1;
+        return 0;
+      });
+    }
 
     setFilteredPartners(filtered);
   };
@@ -116,6 +148,7 @@ const ContactPartner = () => {
     setState('Ciudad de México');
     setCertification('all');
     setCertificationAS('all');
+    setSearchQuery('');
   };
 
   // useEffect(() => {

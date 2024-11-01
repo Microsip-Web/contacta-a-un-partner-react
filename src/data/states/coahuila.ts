@@ -10,10 +10,16 @@ import { corporativo } from '../oficinasRegionales/oficinasRegionales';
   Oro = 4
   Elite = 5
 */
+const corporativoCoahuila: Partners = {
+  ...corporativo[0],
+  state: 'Coahuila',
+};
 
 export let coahuila: Partners[] = [
-	// add corporativo object to the array
-	...corporativo,
+    // add corporativo object to the array
+  {
+    ...corporativoCoahuila,
+  },
 	// {
 	// 	isOffice: true,
 	// 	id: 1,
