@@ -375,4 +375,17 @@ export let coahuila: Partners[] = [
     certificationAS: true,
     email: 'manuelpedroza_aconsa@hotmail.com',
   },
+  {
+    id: 28,
+    isInPage: true,
+    office: 'Corporativo',
+    state: 'Coahuila',
+    city: 'Torreón',
+    inPageName: 'Compugenius SA de CV',
+    phone: '(871) 723-2763',
+    certificationName: 'Bronce',
+    certificationLevel: 2,
+    certificationAS: true,
+    email: 'fmontiel@compugenius.com.mx',
+  },
 ];
