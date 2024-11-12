@@ -161,7 +161,7 @@ const ContactPartner = () => {
 
   return (
     <Box sx={{ bgcolor: '#ffffff' }}>
-      <Container disableGutters maxWidth="lg" sx={{ py: 5 }}>
+      <Container maxWidth="lg" sx={{ py: 5 }}>
         <Grid container spacing={4}>
           <Grid size={{ xs: 12, md: 8 }}>
             <Typography variant="h2" component="h1"
@@ -264,7 +264,7 @@ const ContactPartner = () => {
       </Container>
 
       <Box sx={{ bgcolor: '#f5f5f5', py: 8 }}>
-        <Container maxWidth="lg" disableGutters>
+        <Container maxWidth="lg">
           <Grid container spacing={3}>
             {filteredPartners.length === 0 ? (
               <Grid size={{ xs: 12 }}>
