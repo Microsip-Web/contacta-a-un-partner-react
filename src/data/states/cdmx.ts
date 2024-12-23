@@ -139,4 +139,17 @@ export let cdmx: Partners[] = [
 		certificationAS: true,
 		email: 'ventas@micmex.com.mx',
 	},
+  {
+		id: 10,
+		isInPage: true,
+		office: 'Ciudad de México',
+		state: 'Ciudad de México',
+		city: 'México',
+		inPageName: 'Pyme Soluciones',
+		phone: '(55) 6347-2869',
+		certificationName: 'Bronce',
+		certificationLevel: 2,
+		certificationAS: false,
+		email: 'erick@pymesoluciones.mx',
+	},
 ];

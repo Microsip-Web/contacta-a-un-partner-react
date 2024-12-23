@@ -59,17 +59,4 @@ export let yucatan: Partners[] = [
 		certificationAS: true,
 		email: 'yarisol@adoc365.mx',
 	},
-	{
-		id: 4,
-		isInPage: true,
-		office: 'Sureste',
-		state: 'Yucatán',
-		city: 'Mérida',
-		inPageName: 'Experta en Pymes',
-		phone: '(999) 242-1451',
-		certificationName: 'Bronce',
-		certificationLevel: 2,
-		certificationAS: false,
-		email: 'monica@expertaenpymes.com',
-	},
 ];
