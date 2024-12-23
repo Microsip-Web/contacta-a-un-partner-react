@@ -71,7 +71,7 @@ export let jalisco: Partners[] = [
 		certificationName: 'Bronce',
 		certificationLevel: 2,
 		certificationAS: false,
-		email: 'esther.flores@teciot.mx',
+		email: 'benjamin.meza@teciot.mx',
 	},
 	{
 		id: 5,

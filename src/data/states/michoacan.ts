@@ -31,7 +31,7 @@ export let michoacan: Partners[] = [
 		certificationName: 'Plata',
 		certificationLevel: 3,
 		certificationAS: true,
-		email: '',
+		email: 'suarez_carriedo@conexit.mx',
 	},
 	{
 		id: 2,

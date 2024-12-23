@@ -57,7 +57,7 @@ export let yucatan: Partners[] = [
 		certificationName: 'Plata',
 		certificationLevel: 3,
 		certificationAS: true,
-		email: 'salim@adoc365.mx',
+		email: 'yarisol@adoc365.mx',
 	},
 	{
 		id: 4,
