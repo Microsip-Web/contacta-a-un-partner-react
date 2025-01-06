@@ -29,7 +29,7 @@ export let estadoDeMexico: Partners[] = [
 		phone: '(55) 5639-1144',
 		certificationName: 'Plata',
 		certificationLevel: 3,
-		certificationAS: false,
+		certificationAS: true,
 		email: 'pedro@programasit.mx',
 	},
 	// {

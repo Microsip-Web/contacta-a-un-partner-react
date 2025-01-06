@@ -68,7 +68,7 @@ export let guanajuato: Partners[] = [
 		phone: '(477) 755-1230',
 		certificationName: 'Bronce',
 		certificationLevel: 2,
-		certificationAS: false,
+		certificationAS: true,
 		email: 'martin.romero@codix.mx',
 	},
 	// {

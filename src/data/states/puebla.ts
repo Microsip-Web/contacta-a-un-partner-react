@@ -134,7 +134,7 @@ export let puebla: Partners[] = [
 		phone: '(222) 232-2606',
 		certificationName: 'Bronce',
 		certificationLevel: 2,
-		certificationAS: false,
+		certificationAS: true,
 		email: 'contacto@net-solution.com.mx',
 	},
   {
@@ -144,10 +144,10 @@ export let puebla: Partners[] = [
 		state: 'Puebla',
 		city: 'Puebla',
 		inPageName: 'Francisco Javier Carmona Martínez',
-		phone: '',
+		phone: '(222) 212-1743',
 		certificationName: 'Bronce',
 		certificationLevel: 2,
-		certificationAS: false,
+		certificationAS: true,
 		email: 'javier_carmona@carvill.mx',
 	},
 
