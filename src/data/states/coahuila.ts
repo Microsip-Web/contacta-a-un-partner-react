@@ -264,7 +264,7 @@ export let coahuila: Partners[] = [
 		state: 'Coahuila',
 		city: 'Torreón',
 		inPageName: 'Centex Centro de Negocios',
-		phone: '(844) 169-3260',
+		phone: '(871) 169-3260',
 		certificationName: 'Bronce',
 		certificationLevel: 2,
 		certificationAS: true,
