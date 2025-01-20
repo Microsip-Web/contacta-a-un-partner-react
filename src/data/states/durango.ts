@@ -43,7 +43,7 @@ export let durango: Partners[] = [
 		office: 'Corporativo',
 		state: 'Durango',
 		city: 'Durango',
-		inPageName: 'SISAP',
+		inPageName: 'Sistemas Aplicados del Guadiana',
 		phone: '(618) 811-4002',
 		certificationName: 'Plata',
 		certificationLevel: 3,
