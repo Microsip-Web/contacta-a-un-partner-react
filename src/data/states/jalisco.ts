@@ -79,7 +79,7 @@ export let jalisco: Partners[] = [
     office: "Occidente",
     state: "Jalisco",
     city: "Guadalajara",
-    inPageName: "Tecnoesfera Desarrollos y Soluciones",
+    inPageName: "AD COMERCIAL DIGITAL",
     phone: "(33) 3189-7286",
     certificationName: "Bronce",
     certificationLevel: 2,
