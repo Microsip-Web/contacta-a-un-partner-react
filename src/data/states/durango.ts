@@ -78,14 +78,14 @@ export let durango: Partners[] = [
 	},
   {
 		id: 6,
-		isInPage: true,
+		isInPage: false, //es afiliado
 		office: 'Corporativo',
 		state: 'Durango',
 		city: 'Durango',
 		inPageName: 'SITI Soluciones Inteligentes en Tecnología de Información',
 		phone: '(618) 119-9219',
-		certificationName: 'Bronce',
-		certificationLevel: 2,
+		certificationName: 'Afiliado',
+		certificationLevel: 1,
 		certificationAS: false,
 		email: 'Siti_dgo@outlook.com',
 	},

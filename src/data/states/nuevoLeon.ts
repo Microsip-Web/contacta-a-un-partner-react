@@ -74,14 +74,14 @@ export let nuevoLeon: Partners[] = [
 	},
 	{
 		id: 5,
-		isInPage: true,
+		isInPage: false, //es afiliado
 		office: 'Noreste',
 		state: 'Nuevo León',
 		city: 'Monterrey',
 		inPageName: 'Core Consultores',
 		phone: '(81) 8881-8793',
-		certificationName: 'Bronce',
-		certificationLevel: 2,
+		certificationName: 'Afiliado',
+		certificationLevel: 1,
 		certificationAS: false,
 		email: '',
 	},

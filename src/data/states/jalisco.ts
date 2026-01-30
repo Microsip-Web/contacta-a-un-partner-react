@@ -62,14 +62,14 @@ export let jalisco: Partners[] = [
   },
   {
     id: 4,
-    isInPage: true,
+    isInPage: false, //es afiliado
     office: "Occidente",
     state: "Jalisco",
     city: "Zapopan",
     inPageName: "Tecnologías IOT de Occidente SA de CV",
     phone: "(332) 083-3321",
-    certificationName: "Bronce",
-    certificationLevel: 2,
+    certificationName: "Afiliado",
+    certificationLevel: 1,
     certificationAS: false,
     email: "benjamin.meza@teciot.mx",
   },

@@ -7,8 +7,8 @@ const bajioQueretaro: Partners = {
 };
 
 export let queretaro: Partners[] = [
-	// certification level
-	/*
+  // certification level
+  /*
     NA = 0
     Afilado = 1
     Bronce = 2
@@ -16,34 +16,34 @@ export let queretaro: Partners[] = [
     Oro = 4
     Elite = 5
   */
-	// Partner 1
-	{
-		...bajioQueretaro,
-	},
-	{
-		id: 1,
-		isInPage: true,
-		office: 'Bajío',
-		state: 'Querétaro',
-		city: 'Querétaro',
-    inPageName: 'Chimés Stock',
-		phone: '(442) 413-7311',
-		certificationName: 'Oro',
-		certificationLevel: 4,
-		certificationAS: true,
-		email: '',
-	},
+  // Partner 1
+  {
+    ...bajioQueretaro,
+  },
+  {
+    id: 1,
+    isInPage: true,
+    office: "Bajío",
+    state: "Querétaro",
+    city: "Querétaro",
+    inPageName: "Chimés Stock",
+    phone: "(442) 413-7311",
+    certificationName: "Oro",
+    certificationLevel: 4,
+    certificationAS: true,
+    email: "",
+  },
   {
     id: 2,
     isInPage: true,
-    office: 'Bajío',
-    state: 'Querétaro',
-    city: 'Querétaro',
-    inPageName: 'Soluciones de Pesaje de Occidente',
-    phone: '(442) 223-3828',
-    certificationName: 'Bronce',
+    office: "Bajío",
+    state: "Querétaro",
+    city: "Querétaro",
+    inPageName: "Soluciones de Pesaje de Occidente",
+    phone: "(332) 262-3612",
+    certificationName: "Bronce",
     certificationLevel: 2,
     certificationAS: false,
-    email: 'alejandra.rosales@solucionescopesa.com',
+    email: "acaceres@solucionescopesa.com",
   },
 ];
