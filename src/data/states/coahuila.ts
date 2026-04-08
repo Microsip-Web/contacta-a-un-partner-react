@@ -177,7 +177,7 @@ export let coahuila: Partners[] = [
     certificationName: "Plata",
     certificationLevel: 3,
     certificationAS: false,
-    email: "contacto@effiziente.com.mx",
+    email: "contacto@effiziente.mx",
   },
   {
     id: 13,
