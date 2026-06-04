@@ -33,4 +33,17 @@ export let sanLuisPotosi: Partners[] = [
 		certificationAS: false,
 		email: 'karyybren@hotmail.com',
 	},
+	{
+		id: 2,
+		isInPage: true,
+		office: 'Bajío',
+		state: 'San Luis Potosí',
+		city: 'San Luis Potosí',
+		inPageName: 'PROTEK MEXICO',
+		phone: '(444) 709-7066',
+		certificationName: 'Oro',
+		certificationLevel: 4,
+		certificationAS: false,
+		email: 'orfesantos@protekmexico.com.mx',
+	},
 ];
