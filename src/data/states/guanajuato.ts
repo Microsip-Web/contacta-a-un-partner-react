@@ -26,7 +26,7 @@ export let guanajuato: Partners[] = [
 		state: 'Guanajuato',
 		city: 'León',
 		inPageName: 'Soe Soluciones',
-		phone: '(477) 598 0071',
+		phone: '(477) 370-7609',
 		certificationName: 'Elite',
 		certificationLevel: 5,
 		certificationAS: true,
